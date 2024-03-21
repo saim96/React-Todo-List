@@ -15,7 +15,7 @@ const initialTodos = [
   { id: 4, text: "Prayer", completed: false },
   { id: 5, text: "Set Alarms", completed: false },
 ];
-
+//relevant changing to be made in this component
 export default function TodoList() {
   const [todos, setTodos] = useState(initialTodos);
   return (
