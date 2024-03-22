@@ -1,13 +1,14 @@
 import CssBaseline from "@mui/material/CssBaseLine";
 import "./App.css";
-import TodoList from "./TodoList.component";
+
+import TodoListMui from "./TodoListMui.component";
 
 function App() {
   return (
     <>
       <CssBaseline />
       <h1>Todos</h1>
-      <TodoList/>
+      <TodoListMui/>
     </>
   );
 }
