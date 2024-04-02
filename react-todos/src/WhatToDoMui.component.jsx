@@ -2,7 +2,7 @@ import ListItem from "@mui/material/ListItem";
 import TextField from "@mui/material/TextField";
 import { useState } from "react";
 
-export default function WhatTodoMui({ addToTask }) { // addToTask that will be sent to parent child from here.
+export default function WhatTodoMui({ addToTask }) { 
   const [text, setText] = useState("");
 
   const handleInputChange = (evt) => {
